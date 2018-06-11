@@ -1,0 +1,13 @@
+{
+	// See http://go.microsoft.com/fwlink/?LinkId=827846
+	// for the documentation about the extensions.json format
+	"recommendations": [
+		// Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
+		"dbaeumer.vscode-eslint",
+		"vector-of-bool.gitflow",
+		"patrys.vscode-code-outline",
+    "eamodio.gitlens",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag"
+	]
+}

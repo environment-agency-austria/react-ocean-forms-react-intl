@@ -1,0 +1,56 @@
+{
+  "name": "react-ocean-forms-react-intl",
+  "version": "1.0.2",
+  "description": "Library that adds react-intl support to react-ocean-forms.",
+  "main": "build/index.js",
+  "private": false,
+  "eslint.packageManager": "yarn",
+  "scripts": {
+    "start": "webpack --watch --mode development",
+    "build": "webpack -p",
+    "lint": "eslint src/**"
+  },
+  "peerDependencies": {
+    "react": "^16.4.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.1",
+    "react-intl": "^2.4.0",
+    "react-ocean-forms": "^1.0.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-react-app": "^3.1.0",
+    "babel-runtime": "^6.26.0",
+    "case-sensitive-paths-webpack-plugin": "^2.1.2",
+    "clean-webpack-plugin": "^0.1.19",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.6.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.3",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/environment-agency-austria/react-ocean-forms-react-intl"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "forms",
+    "form",
+    "react-ocean-forms",
+    "forms",
+    "form",
+    "react-intl",
+    "context"
+  ],
+  "author": "Denis Masinovic <denis.masinovic@umweltbundesamt.at>",
+  "license": "MIT"
+}
