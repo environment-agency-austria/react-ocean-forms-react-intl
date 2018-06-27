@@ -1,5 +1,8 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.0.3] - 2018-06-27
+- Updated react-ocean-forms dependency to 1.1.0
+
 ## [1.0.2] - 2018-06-11
 - Initial release of the current code base
