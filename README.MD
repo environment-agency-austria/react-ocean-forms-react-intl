@@ -1,4 +1,7 @@
 # react-ocean-forms-react-intl
+[![npm](https://img.shields.io/npm/v/react-ocean-forms-react-intl.svg)](https://www.npmjs.com/package/react-ocean-forms-react-intl)
+[![GitHub license](https://img.shields.io/github/license/environment-agency-austria/react-ocean-forms-react-intl.svg)](https://github.com/environment-agency-austria/react-ocean-forms-react-intl/blob/master/LICENSE)
+
 `react-ocean-forms-react-intl` works with [react-ocean-forms](https://github.com/environment-agency-austria/react-ocean-forms)
 to enable `react-intl` support in the forms.
 
