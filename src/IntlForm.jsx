@@ -28,7 +28,8 @@ class IntlForm extends React.Component {
       return null;
     }
 
-    return this.props.intl.formatMessage({ id }, values);
+    const { intl } = this.props;
+    return intl.formatMessage({ id }, values);
   }
 
   render() {
