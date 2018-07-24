@@ -49,6 +49,8 @@ class IntlForm extends React.Component {
   }
 }
 
+IntlForm.displayName = 'IntlForm';
+
 IntlForm.propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.arrayOf(PropTypes.node),
