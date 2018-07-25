@@ -3903,9 +3903,9 @@ react-intl@^2.4.0:
     intl-relativeformat "^2.0.0"
     invariant "^2.1.1"
 
-"react-ocean-forms@^1.0.3 || ^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/react-ocean-forms/-/react-ocean-forms-1.1.0.tgz#648cb8d34a5e1510e7eabaff165a56ebfcd97ebe"
+"react-ocean-forms@^1.0.3 || ^1.1.0 || ^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/react-ocean-forms/-/react-ocean-forms-1.2.0.tgz#02bff901a3d48fed9fb86e9b65779ccfe01769ec"
   dependencies:
     prop-types "^15.6.1"
 

@@ -3,6 +3,7 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 - Added displayName props
+- Updated to react-ocean-forms 1.2.0
 
 ## [1.0.3] - 2018-06-27
 - Updated react-ocean-forms dependency to 1.1.0
