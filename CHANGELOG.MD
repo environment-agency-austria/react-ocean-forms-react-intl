@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## [Unreleased]
+## [1.2.0] - 2018-08-02
 - Updated to react-ocean-forms 1.3.0
 
 ## [1.1.0] - 2018-07-25
