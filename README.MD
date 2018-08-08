@@ -5,6 +5,8 @@
 `react-ocean-forms-react-intl` works with [react-ocean-forms](https://github.com/environment-agency-austria/react-ocean-forms)
 to enable `react-intl` support in the forms.
 
+[API Documentation and Showcase](https://environment-agency-austria.github.io/forms-showcase/#/)
+
 ## Features
 * Plug and play extension for multi-language support
 
