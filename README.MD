@@ -18,7 +18,7 @@ to enable `react-intl` support in the forms.
 Simply swap out any existing `Form` references with `IntlForm` from this package.
 
 ```js
-import IntlForm from 'react-ocean-forms-react-intl';
+import { IntlForm } from 'react-ocean-forms-react-intl';
 ```
 
 Then replace the existing form tags.
