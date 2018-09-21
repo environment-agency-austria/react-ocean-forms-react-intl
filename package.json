@@ -1,6 +1,6 @@
 {
   "name": "react-ocean-forms-react-intl",
-  "version": "2.0.0-alpha2",
+  "version": "2.0.0-alpha3",
   "description": "Library that adds react-intl support to react-ocean-forms.",
   "main": "build/index.js",
   "typings": "build/index.d.ts",
@@ -17,7 +17,7 @@
   "dependencies": {
     "prop-types": "^15.6.2",
     "react-intl": "^2.6.0",
-    "react-ocean-forms": "^2.0.0-alpha2"
+    "react-ocean-forms": "^2.0.0-alpha3"
   },
   "devDependencies": {
     "@types/react": "^16.4.14",
