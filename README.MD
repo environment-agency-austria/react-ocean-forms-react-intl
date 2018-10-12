@@ -25,10 +25,9 @@ Then replace the existing form tags.
 
 ```jsx
 <IntlForm onSubmit={this.handleSubmit}>
-  <Field
+  <Input
     name="name"
     label="demo_name"
-    component={Input}
   />
 
   <button type="submit">Submit</button>
