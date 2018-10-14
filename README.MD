@@ -18,17 +18,16 @@ to enable `react-intl` support in the forms.
 Simply swap out any existing `Form` references with `IntlForm` from this package.
 
 ```js
-import IntlForm from 'react-ocean-forms-react-intl';
+import { IntlForm } from 'react-ocean-forms-react-intl';
 ```
 
 Then replace the existing form tags.
 
 ```jsx
 <IntlForm onSubmit={this.handleSubmit}>
-  <Field
+  <Input
     name="name"
     label="demo_name"
-    component={Input}
   />
 
   <button type="submit">Submit</button>
