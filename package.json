@@ -7,9 +7,49 @@
   "private": false,
   "eslint.packageManager": "yarn",
   "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
     "start": "webpack --watch --mode development",
     "build": "webpack -p",
     "lint": "tslint --project src"
+  },
+  "jest": {
+    "setupFiles": [
+      "<rootDir>/config/jest/enzyme.js"
+    ],
+    "testMatch": [
+      "**/__tests__/**/*.js?(x)",
+      "**/__tests__/**/*.ts?(x)",
+      "**/?(*.)+(spec|test).js?(x)",
+      "**/?(*.)+(spec|test).ts?(x)"
+    ],
+    "collectCoverageFrom": [
+      "<rootDir>/src/**/*.{js,jsx,mjs,ts,tsx}",
+      "!<rootDir>/src/test-utils/**"
+    ],
+    "globals": {
+      "ts-jest": {
+        "tsConfig": "<rootDir>/config/jest/tsconfig.jest.json"
+      }
+    },
+    "testEnvironment": "jsdom",
+    "testURL": "http://localhost",
+    "transform": {
+      "^.+\\.(js|jsx|mjs)$": "<rootDir>/node_modules/babel-jest",
+      "^.+\\.tsx?$": "<rootDir>/node_modules/ts-jest"
+    },
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "web.js",
+      "mjs",
+      "js",
+      "json",
+      "web.jsx",
+      "jsx",
+      "node"
+    ]
   },
   "peerDependencies": {
     "react": "^16.4.0"
@@ -20,6 +60,8 @@
     "react-ocean-forms": "^2.0.0-beta3"
   },
   "devDependencies": {
+    "@types/enzyme": "^3.1.14",
+    "@types/jest": "^23.3.5",
     "@types/prop-types": "^15.5.6",
     "@types/react": "^16.4.16",
     "@types/react-intl": "^2.3.11",
@@ -29,8 +71,12 @@
     "babel-runtime": "^6.26.0",
     "case-sensitive-paths-webpack-plugin": "^2.1.2",
     "clean-webpack-plugin": "^0.1.19",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
+    "jest": "^23.6.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
+    "ts-jest": "^23.10.4",
     "ts-loader": "^5.2.1",
     "tslint": "^5.11.0",
     "tslint-consistent-codestyle": "^1.13.3",
