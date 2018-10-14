@@ -2,6 +2,7 @@
 [![npm](https://img.shields.io/npm/v/react-ocean-forms-react-intl.svg)](https://www.npmjs.com/package/react-ocean-forms-react-intl)
 [![GitHub license](https://img.shields.io/github/license/environment-agency-austria/react-ocean-forms-react-intl.svg)](https://github.com/environment-agency-austria/react-ocean-forms-react-intl/blob/master/LICENSE)
 [![travis](https://travis-ci.com/environment-agency-austria/react-ocean-forms-react-intl.svg?branch=master)](https://travis-ci.com/environment-agency-austria/react-ocean-forms-react-intl)
+[![Greenkeeper badge](https://badges.greenkeeper.io/environment-agency-austria/react-ocean-forms-react-intl.svg)](https://greenkeeper.io/)
 [![Coverage Status](https://coveralls.io/repos/github/environment-agency-austria/react-ocean-forms-react-intl/badge.svg?branch=master)](https://coveralls.io/github/environment-agency-austria/react-ocean-forms-react-intl?branch=master)
 
 `react-ocean-forms-react-intl` works with [react-ocean-forms](https://github.com/environment-agency-austria/react-ocean-forms)
