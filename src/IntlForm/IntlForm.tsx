@@ -7,13 +7,10 @@
 
 import * as React from 'react';
 
-import { InjectedIntlProps, injectIntl } from 'react-intl';
-import { Form, IFormProps, IMessageValues } from 'react-ocean-forms';
+import { injectIntl } from 'react-intl';
+import { Form, IMessageValues } from 'react-ocean-forms';
 
-/**
- * Props for the IntlForm component
- */
-export interface IIntlFormProps extends IFormProps, InjectedIntlProps { }
+import { IIntlFormProps } from './IntlForm.types';
 
 /**
  * React-intl wrapper for the OceanJS
@@ -22,7 +19,7 @@ export interface IIntlFormProps extends IFormProps, InjectedIntlProps { }
 export class BaseIntlForm extends React.Component<IIntlFormProps> {
   public static displayName: string = 'IntlForm';
 
-  private formatIntlString = (id: string, values: IMessageValues): string => {
+  private formatIntlString = (id: string, values?: IMessageValues): string => {
     // Return the id if no valid id was given
     if (id === null || id === undefined || id === '') {
       // tslint:disable-next-line:no-console
