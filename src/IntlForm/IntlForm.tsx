@@ -19,7 +19,7 @@ import { IIntlFormProps } from './IntlForm.types';
 export class BaseIntlForm extends React.Component<IIntlFormProps> {
   public static displayName: string = 'IntlForm';
 
-  private formatIntlString = (id: string, values: IMessageValues): string => {
+  private formatIntlString = (id: string, values?: IMessageValues): string => {
     // Return the id if no valid id was given
     if (id === null || id === undefined || id === '') {
       // tslint:disable-next-line:no-console
