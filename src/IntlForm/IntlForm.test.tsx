@@ -20,7 +20,7 @@ describe('<IntlForm />', () => {
       formatRelative: jest.fn(),
       formatNumber: jest.fn(),
       formatPlural: jest.fn(),
-      formatMessage: jest.fn().mockImplementation(value => value.id),
+      formatMessage: jest.fn().mockImplementation((value: { id: string }) => value.id),
       formatHTMLMessage: jest.fn(),
       locale: 'en',
       formats: null,
@@ -36,7 +36,7 @@ describe('<IntlForm />', () => {
       />
     ));
 
-    const formatIntlString = wrapper.find('Form').prop('formatString') as TSTringFormatter;
+    const formatIntlString = wrapper.find('Form').prop<TSTringFormatter>('formatString');
 
     return {
       wrapper,
@@ -85,7 +85,7 @@ describe('<IntlForm />', () => {
         [ '' ],
       ];
 
-      describe.each(cases)('called with "%s"', (name) => {
+      describe.each(cases)('called with "%s"', (name: string) => {
         const { intl, formatIntlString } = setup();
 
         let consoleErrorSpy: jest.SpyInstance;
