@@ -5173,9 +5173,10 @@ react-is@^16.5.2:
   version "16.5.2"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.5.2.tgz#e2a7b7c3f5d48062eb769fcb123505eb928722e3"
 
-react-ocean-forms@^2.0.0-rc1:
-  version "2.0.0-rc1"
-  resolved "https://registry.yarnpkg.com/react-ocean-forms/-/react-ocean-forms-2.0.0-rc1.tgz#cce8e75dbf35ffde2b201c1f976d9dfc0b030a1e"
+react-ocean-forms@^2.0.0-rc3:
+  version "2.0.0-rc3"
+  resolved "https://registry.yarnpkg.com/react-ocean-forms/-/react-ocean-forms-2.0.0-rc3.tgz#5c9cc4e8426db3dddc94d9b031b791ee2a77f074"
+  integrity sha512-0LOhRAeIuVLZRy8tKN0UbTfmth9lkmDxpuMJ3zC8ZXPZ/Sl7Weeb40h0N09iL0c699qygz/nwQ05fjtIsfge9Q==
 
 react-test-renderer@^16.0.0-0:
   version "16.5.2"
