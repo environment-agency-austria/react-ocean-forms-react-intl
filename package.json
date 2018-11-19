@@ -1,6 +1,6 @@
 {
   "name": "react-ocean-forms-react-intl",
-  "version": "2.0.0-rc2",
+  "version": "2.0.0",
   "description": "Library that adds react-intl support to react-ocean-forms.",
   "main": "build/index.js",
   "typings": "build/index.d.ts",
