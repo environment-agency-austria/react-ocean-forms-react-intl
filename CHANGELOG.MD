@@ -1,10 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## [Unreleased]
+## [2.0.0] - 2018-11-19
 ### Breaking changes
 - IntlForm is now a named export. Use `import { IntlForm } from 'react-ocean-forms-react-intl';` now
-- Updated to react-ocean-forms 2.0.0
+- Updated to react-ocean-forms 2.0.0 - [migration guide](https://github.com/environment-agency-austria/react-ocean-forms#upgrading-from-react-ocean-forms-1xx-to-200)
 
 ## [1.3.0] - 2018-08-20
 - Updated to react-ocean-forms 1.4.0
