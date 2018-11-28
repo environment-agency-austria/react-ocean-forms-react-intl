@@ -1,6 +1,9 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [2.0.1] - 2018-11-28
+- Added `@types/react-intl` dependency to fix possible typescript compiler issues
+
 ## [2.0.0] - 2018-11-19
 ### Breaking changes
 - IntlForm is now a named export. Use `import { IntlForm } from 'react-ocean-forms-react-intl';` now
