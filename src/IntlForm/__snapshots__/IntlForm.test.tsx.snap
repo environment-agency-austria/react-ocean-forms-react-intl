@@ -19,6 +19,7 @@ ShallowWrapper {
         "locale": "en",
         "messages": Object {},
         "now": [MockFunction],
+        "onError": [MockFunction],
       }
     }
   />,
@@ -55,6 +56,7 @@ ShallowWrapper {
         "locale": "en",
         "messages": Object {},
         "now": [MockFunction],
+        "onError": [MockFunction],
       },
       "plaintext": false,
     },
@@ -88,6 +90,7 @@ ShallowWrapper {
           "locale": "en",
           "messages": Object {},
           "now": [MockFunction],
+          "onError": [MockFunction],
         },
         "plaintext": false,
       },

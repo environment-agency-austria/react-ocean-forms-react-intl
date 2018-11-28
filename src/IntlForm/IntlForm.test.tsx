@@ -14,7 +14,7 @@ describe('<IntlForm />', () => {
   }
 
   const setup = (): ISetupResult => {
-    const intl = {
+    const intl: InjectedIntl = {
       formatDate: jest.fn(),
       formatTime: jest.fn(),
       formatRelative: jest.fn(),
@@ -28,6 +28,7 @@ describe('<IntlForm />', () => {
       defaultLocale: 'en',
       defaultFormats: null,
       now: jest.fn(),
+      onError: jest.fn(),
     };
 
     const wrapper = shallow((
