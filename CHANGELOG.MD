@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [2.0.2] - 2018-12-01
+- Moved `@types/react-intl` to peerDependencies due to hoisting issues
+- Made production package size smaller
+- Enabled tree shaking
+
 ## [2.0.1] - 2018-11-28
 - Added `@types/react-intl` dependency to fix possible typescript compiler issues
 
