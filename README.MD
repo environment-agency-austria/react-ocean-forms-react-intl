@@ -15,6 +15,7 @@ to enable `react-intl` support in the forms.
 
 ## Install
 ```npm install react-ocean-forms-react-intl```
+
 ```yarn add react-ocean-forms-react-intl```
 
 ## Usage
