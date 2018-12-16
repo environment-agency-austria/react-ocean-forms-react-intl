@@ -1,6 +1,9 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [Unreleased]
+- Migrated to rollup to improve package size and tree shaking
+
 ## [2.0.2] - 2018-12-01
 - Moved `@types/react-intl` to peerDependencies due to hoisting issues
 - Made production package size smaller
