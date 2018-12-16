@@ -3,12 +3,9 @@
   /*
    * This file is used for the build process.
    */
-
-  "compilerOptions": {
-    // Don't generate the declaration files for now...
+   "compilerOptions": {
     "declaration": true,
-    "allowJs": false,
-    "checkJs": false,
+    "declarationDir": "build"
   },
   "exclude": [
     // Make sure that all the test files are excluded from the build
