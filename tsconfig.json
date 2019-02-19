@@ -26,6 +26,7 @@
     "allowJs": false,
     "checkJs": false,
     "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,          
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
   }
 }

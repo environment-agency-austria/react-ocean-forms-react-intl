@@ -1,120 +1,30 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<IntlForm /> should render without crashing 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <IntlForm
-    intl={
-      Object {
-        "defaultFormats": null,
-        "defaultLocale": "en",
-        "formatDate": [MockFunction],
-        "formatHTMLMessage": [MockFunction],
-        "formatMessage": [MockFunction],
-        "formatNumber": [MockFunction],
-        "formatPlural": [MockFunction],
-        "formatRelative": [MockFunction],
-        "formatTime": [MockFunction],
-        "formats": null,
-        "locale": "en",
-        "messages": Object {},
-        "now": [MockFunction],
-        "onError": [MockFunction],
-      }
-    }
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "asyncValidateOnChange": false,
-      "asyncValidationWait": 400,
-      "children": undefined,
-      "defaultValues": Object {},
-      "disabled": false,
-      "formatString": [Function],
-      "intl": Object {
-        "defaultFormats": null,
-        "defaultLocale": "en",
-        "formatDate": [MockFunction],
-        "formatHTMLMessage": [MockFunction],
-        "formatMessage": [MockFunction],
-        "formatNumber": [MockFunction],
-        "formatPlural": [MockFunction],
-        "formatRelative": [MockFunction],
-        "formatTime": [MockFunction],
-        "formats": null,
-        "locale": "en",
-        "messages": Object {},
-        "now": [MockFunction],
-        "onError": [MockFunction],
-      },
-      "plaintext": false,
-    },
-    "ref": null,
-    "rendered": null,
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
+<Form
+  asyncValidateOnChange={false}
+  asyncValidationWait={400}
+  defaultValues={Object {}}
+  disabled={false}
+  formatString={[Function]}
+  intl={
     Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "asyncValidateOnChange": false,
-        "asyncValidationWait": 400,
-        "children": undefined,
-        "defaultValues": Object {},
-        "disabled": false,
-        "formatString": [Function],
-        "intl": Object {
-          "defaultFormats": null,
-          "defaultLocale": "en",
-          "formatDate": [MockFunction],
-          "formatHTMLMessage": [MockFunction],
-          "formatMessage": [MockFunction],
-          "formatNumber": [MockFunction],
-          "formatPlural": [MockFunction],
-          "formatRelative": [MockFunction],
-          "formatTime": [MockFunction],
-          "formats": null,
-          "locale": "en",
-          "messages": Object {},
-          "now": [MockFunction],
-          "onError": [MockFunction],
-        },
-        "plaintext": false,
-      },
-      "ref": null,
-      "rendered": null,
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getDerivedStateFromProps": true,
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
-}
+      "defaultFormats": null,
+      "defaultLocale": "en",
+      "formatDate": [MockFunction],
+      "formatHTMLMessage": [MockFunction],
+      "formatMessage": [MockFunction],
+      "formatNumber": [MockFunction],
+      "formatPlural": [MockFunction],
+      "formatRelative": [MockFunction],
+      "formatTime": [MockFunction],
+      "formats": null,
+      "locale": "en",
+      "messages": Object {},
+      "now": [MockFunction],
+      "onError": [MockFunction],
+    }
+  }
+  plaintext={false}
+/>
 `;
