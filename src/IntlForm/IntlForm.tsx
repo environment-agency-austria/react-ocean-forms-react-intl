@@ -22,7 +22,6 @@ export class BaseIntlForm extends React.Component<IIntlFormProps> {
   private formatIntlString = (id: string, values?: IMessageValues): string => {
     // Return the id if no valid id was given
     if (id === null || id === undefined || id === '') {
-      // tslint:disable-next-line:no-console
       console.error('[IntlForm] Invalid id given to formatIntlString');
 
       return id;
@@ -33,7 +32,6 @@ export class BaseIntlForm extends React.Component<IIntlFormProps> {
     return intl.formatMessage({ id }, values);
   }
 
-  // tslint:disable-next-line:member-ordering
   public render(): JSX.Element {
     const {
       children,
