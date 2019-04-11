@@ -80,13 +80,13 @@ describe('<IntlForm />', () => {
     });
 
     describe('error cases', () => {
-      const cases = [
-        [ null ],
-        [ undefined ],
-        [ '' ],
+      const cases: [string, null | undefined | string][] = [
+        [ 'null', null ],
+        [ 'undefined', undefined ],
+        [ 'empty', '' ],
       ];
 
-      describe.each(cases)('called with "%s"', (name: string) => {
+      describe.each(cases)('called with "%s"', (name, value) => {
         const { intl, formatIntlString } = setup();
 
         let consoleErrorSpy: jest.SpyInstance;
@@ -100,8 +100,8 @@ describe('<IntlForm />', () => {
         });
 
         it('should return the passed value as-is', () => {
-          const result = formatIntlString(name);
-          expect(result).toBe(name);
+          const result = formatIntlString(value as string);
+          expect(result).toBe(value);
         });
 
         it('should not call intl.formatMessage', () => {
