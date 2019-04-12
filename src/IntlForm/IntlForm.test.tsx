@@ -89,16 +89,6 @@ describe('<IntlForm />', () => {
       describe.each(cases)('called with "%s"', (name, value) => {
         const { intl, formatIntlString } = setup();
 
-        let consoleErrorSpy: jest.SpyInstance;
-
-        beforeAll(() => {
-          consoleErrorSpy = jest.spyOn(console, 'error');
-        });
-
-        afterAll(() => {
-          consoleErrorSpy.mockClear();
-        });
-
         it('should return the passed value as-is', () => {
           const result = formatIntlString(value as string);
           expect(result).toBe(value);
@@ -106,10 +96,6 @@ describe('<IntlForm />', () => {
 
         it('should not call intl.formatMessage', () => {
           expect(intl.formatMessage).not.toHaveBeenCalled();
-        });
-
-        it('should write an error on console.error', () => {
-          expect(consoleErrorSpy).toHaveBeenCalledWith('[IntlForm] Invalid id given to formatIntlString');
         });
       });
     });

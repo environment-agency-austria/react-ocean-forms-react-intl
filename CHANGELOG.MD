@@ -1,6 +1,9 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [2.0.4] - 2019-04-12
+- Disabled `console.error` in `formatIntlString`
+
 ## [2.0.3] - 2018-12-16
 - Migrated to rollup to improve package size and tree shaking
 
