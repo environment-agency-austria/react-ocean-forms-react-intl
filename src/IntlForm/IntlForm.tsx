@@ -22,8 +22,6 @@ export class BaseIntlForm extends React.Component<IIntlFormProps> {
   private formatIntlString = (id: string, values?: IMessageValues): string => {
     // Return the id if no valid id was given
     if (id === null || id === undefined || id === '') {
-      console.error('[IntlForm] Invalid id given to formatIntlString');
-
       return id;
     }
 
