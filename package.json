@@ -47,7 +47,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-intl": "^2.9.0",
+    "react-intl": "^4.5.4",
     "react-ocean-forms": "^2.2.0",
     "rollup": "^1.27.10",
     "rollup-plugin-commonjs": "^10.1.0",
